@@ -148,12 +148,15 @@ rsync -avh "$BACKUP_DIR/$BACKUP_NAME/" /home/user/
 ```
 sudo incremental_backup.sh
 ```
+
+
+![alt text](image-7.png)
+
 Восстанавливаем:
 
 ```
 sudo restore_backup.sh
 ```
-![alt text](image-6.png)
-
+![alt text](image-7.png)
 
 
