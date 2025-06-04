@@ -28,6 +28,13 @@ rsync -avh --checksum --exclude='.*' --delete /home/user/ /tmp/backup/
 ```
 ![alt text](image.png)
 
+Еще пример
+```
+nohup rsync -avh  --ignore-errors --exclude='.*' --progress --partial /mnt/ /home/upload/ 2>&1 >/home/art/RSYNC2.log &
+```
+
+
+
 ## Задание 2: Скрипт для регулярного резервного копирования через cron
 
 
